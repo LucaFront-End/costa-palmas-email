@@ -3,8 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <title>Costa Palmas - Thank You Dallas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    /* Fijar ancho en mobile y desktop */
+    body, html {
+      margin: 0;
+      padding: 0;
+      background-color: #EEEBE2;
+      width: 100vw;
+      min-width: 100vw;
+      max-width: 100vw;
+      overflow-x: hidden;
+    }
     @media only screen and (max-width: 700px) {
       table[class="main-container"] {
         width: 100% !important;
@@ -14,6 +23,19 @@
       td[class="main-td"] {
         padding-left: 0 !important;
         padding-right: 0 !important;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+      }
+      .mobile-full {
+        width: 100vw !important;
+        min-width: 100vw !important;
+        max-width: 100vw !important;
+        display: block !important;
+      }
+      img {
+        max-width: 100vw !important;
+        width: 100vw !important;
+        height: auto !important;
       }
     }
   </style>
